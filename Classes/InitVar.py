@@ -1,19 +1,20 @@
-import math
-
 """Init var for project"""
 class InitVar():
-    nucList = ['a', 'c', 'g', 't']
-    fact_nucList = math.factorial(int(len(nucList)))
+    nuc_list = ['a', 'c', 'g', 't']
 
-    dinucList = ['tt', 'ac', 'ag', 'at',
+    nuc_list_exp = [
+        'a', 'c', 'g', 't',
+        'a', 'c', 'g', 't',
+        'a', 'c', 'g', 't'
+    ]
+
+    dinucList = ['aa', 'ac', 'ag', 'at',
                  'ca', 'cc', 'cg', 'ct',
                  'ga', 'gc', 'gg', 'gt',
-                 'ta', 'tc', 'tg', 'aa'
+                 'ta', 'tc', 'tg', 'tt'
     ]
-    fact_dinucList = math.factorial(int(len(dinucList)))
     
     dinucList_aa = ['aa', 'aa', 'aa', 'aa', 'aa', 'aa', ]
-    fact_dinucList_aa = math.factorial(len(dinucList_aa))
     
     dinucDict = {'aa': [0, 0, 0], 'ac': [0, 0, 0], 'ag': [0, 0, 0], 'at': [0, 0, 0],
                  'ca': [0, 0, 0], 'cc': [0, 0, 0], 'cg': [0, 0, 0], 'ct': [0, 0, 0],
