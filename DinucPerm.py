@@ -16,7 +16,7 @@ def dinucPermut():
         if dinucDiffSum == 0:
             print(f"{i}\t{list(item)}")
         elif i % 10000 == 0:
-            print(f"{i} of {fact_nuc_list} {(i/fact_nuc_list) * 100:2.2f} %", end='\r')
+            print(f"{i} of {fact_nuc_list} {(i/fact_nuc_list) * 100:2.6f} %", end='\r')
         i += 1
     
     input("\nPress any key to exit")
